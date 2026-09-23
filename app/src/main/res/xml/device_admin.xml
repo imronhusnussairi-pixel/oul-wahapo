@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Kebijakan minimal untuk Device Admin/Device Owner.
+  Aplikasi ini hanya butuh hak untuk mengatur lock task (kiosk mode),
+  jadi daftar uses-policy sengaja dibuat sekecil mungkin.
+-->
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-policy android:name="force-lock" />
+</device-admin>
